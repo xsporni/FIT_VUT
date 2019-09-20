@@ -1,0 +1,40 @@
+<program>	  	    -> EOF
+                    -> EOL <program>
+                    -> def <def> EOL <program>
+                    -> <statement> EOL <program>
+<def>			    -> id (<param_list>) EOL <state_list> end
+<state_list>        -> <statement> EOL <state_list>
+				    -> ϵ
+				    -> EOL <state_list>
+<statement>	        -> if <expression> then EOL <state_list> else EOL <state_list> end
+                    -> while <expression> do EOL <state_list> end
+                    -> id = <id_assign>
+                    -> <fnc_call>
+                    -> <expression>
+<id_assign>         -> <fnc_call>
+                    -> <expression>
+<param_list> 	    -> id <param_next>
+				    -> ϵ
+<param_next>	    -> , id <param_next>
+				    -> ϵ
+<fnc_call>          -> id <argument_list>
+                    -> inputs <argument_list>
+                    -> inputf <argument_list>
+                    -> inputi <argument_list>
+                    -> print <argument_list>
+                    -> length <argument_list>
+                    -> substr <argument_list>
+                    -> ord <argument_list>
+                    -> chr <argument_list>
+<argument_list>	    -> (<arguments>)
+				    -> <arguments>
+<arguments>		    -> <term> <argument_next>
+				    -> ϵ
+<argument_next>	    -> , <term> <argument_next>
+				    -> ϵ
+<term>			    -> id
+                    -> INTEGER_VALUE
+                    -> FLOAT_VALUE
+                    -> STRING_VALUE
+
+

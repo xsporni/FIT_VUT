@@ -1,0 +1,105 @@
+﻿Projekt 3 - Jednoduchá shluková analýza
+Zpět na termíny
+Termín č.:	4
+Zahájení:	2017-11-27 	Ukončení:	2017-12-10
+Přihlašování od:	2017-10-09 08:00:00 	Přihlašování do:	2017-10-29 22:00:00
+Max. bodů:	10
+Získáno bodů:	8,8 hodnotil ibruckner 2017-12-11
+Komentář učitele k hodnocení:
+
+8.8: celkem bodu
+
+====== Prehled hodnoceni ==========
+5:obhajoba
+0.65:ok: nacteni a vypis jedineho shluku
+0.65:ok: nacteni a vypis 20 shluku
+0.6:ok: jedna iterace shlukovani nad dvema objekty
+0.6:ok: jedna iterace shlukovani nad 20 objekty
+0.3:ok: 10 shluku
+0.3:ok: 7 shluku
+0.3:ok: 3 shluky
+0:spatne: (premie) hledani podle nejblizsiho souseda
+0:spatne: (premie) hledani podle nejvzdalenejsiho souseda
+0: pametove chyby (radek 91, c->capacity neni jeste nastavena)
+0.1:ok: reakce na neexistujici soubor
+0: timeout: program nasilne ukoncen (zacykleni nebo cekani)
+0:chyba: reakce na spatny obsah souboru 1
+0: timeout: program nasilne ukoncen (zacykleni nebo cekani)
+0:chyba: reakce na spatny obsah souboru 2
+0.1:ok: reakce na chybejici argumenty
+0.05:ok: reakce na spatny 2. argument
+0.05:ok: reakce 2. argument jako zaporne cislo
+0.1:ok: reakce na spatny pocet cilovych shluku
+
+====== Log z prekladu =============
+Ok
+
+====== Analyza kodu ===============
+Ok
+
+====== Log z jednotlivych testu ===
+0.65:ok: nacteni a vypis jedineho shluku
+0.65:ok: nacteni a vypis 20 shluku
+0.6:ok: jedna iterace shlukovani nad dvema objekty
+0.6:ok: jedna iterace shlukovani nad 20 objekty
+0.3:ok: 10 shluku
+0.3:ok: 7 shluku
+0.3:ok: 3 shluky
+0:spatne: (premie) hledani podle nejblizsiho souseda
+# Neodpovida vzorovemu vystupu
+#   --- expected/test40.clusters 2017-12-11 09:37:05.575447000 +0100
+#   +++ test40.clusters 2017-12-11 11:42:30.231207000 +0100
+#   @@ -1,11 +1 @@
+#   -Clusters:
+#   -cluster: 40[86,663] 56[44,854] 62[85,874] 68[80,770] 75[28,603] 86[238,650]
+#   -cluster: 43[747,938]
+#   -cluster: 47[285,973]
+#   -cluster: 49[548,422]
+#   -cluster: 52[741,541]
+#   -cluster: 57[795,59] 89[749,190]
+#   -cluster: 61[267,375] 66[125,211] 72[277,272] 74[222,444] 87[149,304]
+#   -cluster: 79[926,463]
+#   -cluster: 83[603,68]
+#   -cluster: 93[944,835]
+#   +Chyba! nepovoleny pocet argumentov!
+0:spatne: (premie) hledani podle nejvzdalenejsiho souseda
+# Neodpovida vzorovemu vystupu
+#   --- expected/test41.clusters 2017-12-11 09:37:05.578503000 +0100
+#   +++ test41.clusters 2017-12-11 11:42:30.681400000 +0100
+#   @@ -1,11 +1 @@
+#   -Clusters:
+#   -cluster: 40[86,663] 75[28,603] 86[238,650]
+#   -cluster: 43[747,938]
+#   -cluster: 47[285,973]
+#   -cluster: 49[548,422]
+#   -cluster: 52[741,541] 79[926,463]
+#   -cluster: 56[44,854] 62[85,874] 68[80,770]
+#   -cluster: 57[795,59] 83[603,68] 89[749,190]
+#   -cluster: 61[267,375] 74[222,444]
+#   -cluster: 66[125,211] 72[277,272] 87[149,304]
+#   -cluster: 93[944,835]
+#   +Chyba! nepovoleny pocet argumentov!
+0: pametove chyby
+#    test10.valgrind:==7288== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+#    test11.valgrind:==7306== ERROR SUMMARY: 20 errors from 1 contexts (suppressed: 0 from 0)
+#    test20.valgrind:==7316== ERROR SUMMARY: 2 errors from 1 contexts (suppressed: 0 from 0)
+#    test21.valgrind:==7325== ERROR SUMMARY: 20 errors from 1 contexts (suppressed: 0 from 0)
+#    test30.valgrind:==7337== ERROR SUMMARY: 20 errors from 1 contexts (suppressed: 0 from 0)
+#    test31.valgrind:==7346== ERROR SUMMARY: 20 errors from 1 contexts (suppressed: 0 from 0)
+#    test32.valgrind:==7355== ERROR SUMMARY: 20 errors from 1 contexts (suppressed: 0 from 0)
+0.1:ok: reakce na neexistujici soubor
+#   Chyba s otvorenim suboru!
+#   : No such file or directory
+0: timeout: program nasilne ukoncen (zacykleni nebo cekani)
+0:chyba: reakce na spatny obsah souboru 1
+0: timeout: program nasilne ukoncen (zacykleni nebo cekani)
+0:chyba: reakce na spatny obsah souboru 2
+0.1:ok: reakce na chybejici argumenty
+#   Chyba! nepovoleny pocet argumentov!
+0.05:ok: reakce na spatny 2. argument
+#   Chyba!, zaporny argument!
+
+0.05:ok: reakce 2. argument jako zaporne cislo
+#   Chyba!, zaporny argument!
+0.1:ok: reakce na spatny pocet cilovych shluku
+#   Chyba!, zaporny argument!

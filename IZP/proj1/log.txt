@@ -1,0 +1,60 @@
+﻿Projekt 1 - Práce s textem
+Zpět na termíny
+Termín č.:	2
+Zahájení:	2017-10-23 	Ukončení:	2017-11-05
+Přihlašování od:	2017-10-09 08:00:00 	Přihlašování do:	2017-10-29 22:00:00
+Max. bodů:	5
+Získáno bodů:	4,7 hodnotil ibruckner 2017-11-12
+Komentář učitele k hodnocení:
+
+4.7: celkem bodu
+
+====== Prehled hodnoceni ==========
+2.5:obhajoba
+0.3:ok: jedno mesto na vstupu
+0.3:ok: prazdny prefix
+0.3:ok: nalezeni pri neprazdnem prefixu
+0.4:ok: povoleni klaves pri neprazdnem prefixu
+0.2:ok: povoleni klaves pri neprazdnem prefixu
+0:spatne: podporovana velikost vstupnich dat
+0.4:ok: nenalezeno
+0.3:ok: case insensitive
+
+====== Log z prekladu =============
+Ok
+
+====== Analyza kodu ===============
+Ok
+
+====== Log z jednotlivych testu ===
+0.3:ok: jedno mesto na vstupu
+0.3:ok: prazdny prefix
+0.3:ok: nalezeni pri neprazdnem prefixu
+0.4:ok: povoleni klaves pri neprazdnem prefixu
+0.2:ok: povoleni klaves pri neprazdnem prefixu
+0:spatne: podporovana velikost vstupnich dat
+# Neodpovida vzorovemu vystupu
+#   --- ideal/test6 2017-11-12 20:12:04.478375000 +0100
+#   +++ test6 2017-11-12 22:08:03.884636000 +0100
+#   @@ -1,12 +1,12 @@
+#    seq -w 42 | ./proj1 0  -->
+#   -    Enable: 123456789
+#   +Zadali ste nepovoleny znak!
+#    seq -w 42 | ./proj1 1  -->
+#   -    Enable: 0123456789
+#   +Zadali ste nepovoleny znak!
+#    seq -w 42 | ./proj1 2  -->
+#   -    Enable: 0123456789
+#   +Zadali ste nepovoleny znak!
+#    seq -w 42 | ./proj1 3  -->
+#   -    Enable: 0123456789
+#   +Zadali ste nepovoleny znak!
+#    seq -w 42 | ./proj1 42  -->
+#   -    Found: 42
+#   +Zadali ste nepovoleny znak!
+#    printf "1234567891123456789212345678931234567894123456789512345678961234567897123456789812345678991234567890\n" | ./proj1 1234567891123456789212345678931234567894123456789512345678961234567897123456789812345678991234567890  -->
+
+#   -    Found: 1234567891123456789212345678931234567894123456789512345678961234567897123456789812345678991234567890
+#   +Nazov mesta je priliz dlhy!
+0.4:ok: nenalezeno
+0.3:ok: case insensitive

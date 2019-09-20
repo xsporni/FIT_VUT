@@ -1,0 +1,59 @@
+﻿Projekt 2 - Iterační výpočty
+Zpět na termíny
+Termín č.:	3
+Zahájení:	2017-11-13 	Ukončení:	2017-11-19
+Přihlašování od:	2017-10-09 08:00:00 	Přihlašování do:	2017-10-29 22:00:00
+Max. bodů:	7
+Získáno bodů:	7 hodnotil ibruckner 2017-11-26
+Komentář učitele k hodnocení:
+
+7: celkem bodu
+
+====== Prehled hodnoceni ==========
+3.5:obhajoba
+0.7:ok: tangens pri jednoradkovych porovnani
+0.7:ok: tangens pri porovnani
+0.7:ok: vypocet vzdalenosti
+0.7:ok: vypocet vzdalenosti a vysky
+0.35:ok: vypocet vzdalenosti a vysky + vyska mereni
+0.07:ok: reakce na napovedu
+0.07:ok: reakce na stderr kvuli zadnym argumentum
+0.07:ok: reakce na stderr na chybny argument --tan
+0.07:ok: reakce na stderr na chybny argument -m
+0.07:ok: reakce na stderr na chybny argument -m -1
+
+====== Log z prekladu =============
+Ok
+
+====== Analyza kodu ===============
+Ok
+
+====== Log z jednotlivych testu ===
+0.7:ok: tangens pri jednoradkovych porovnani
+0.7:ok: tangens pri porovnani
+0.7:ok: vypocet vzdalenosti
+0.7:ok: vypocet vzdalenosti a vysky
+0.35:ok: vypocet vzdalenosti a vysky + vyska mereni
+0.07:ok: reakce na napovedu
+#   NAPOVEDA - xsporn01
+#   
+#    --help sposobi, ze program vypise napovedu o pouzivani programu a skonci.
+#    --tan porovna presnosti vypoctu tangens uhla A (v radioanoch) medzi volanim tan z matematickej
+#    kniznice, a vypoctu tangens pomocou Taylorovho polynomu a zretazeneho zlomku. Argumenty N a M
+#    udavaju, v ktorej iteracii iteracneho vzpoctu ma porovnanie prebiehat 0 < N <= M < 14
+#    -m vypocita a zmeria vydialenosti.
+#    Uhol Alfa je dany argumentom A v radianoch. Program vypocita a vypise vzdialenost
+#    meraneho objektu 0 < A <= 2.5 < Pi/2.
+#    Pokial je zadany uhol Beta udava argument B v radianoch. Program vypocita a vypise i vysku meraneho
+#    objektu. 0 < B <= 1.4 < Pi/2
+#    Argument -c nastavuje vyusku meriaceho pristroja c pre vypocet. Vyska c je dana argumentom X(0 < X <= 100).
+#    Argument je volitelny - implicitna vyska je 1.5 metra.
+0.07:ok: reakce na stderr kvuli zadnym argumentum
+#   Zly pocet argumentov!
+0.07:ok: reakce na stderr na chybny argument --tan
+#   Neznamy argument!
+
+0.07:ok: reakce na stderr na chybny argument -m
+#   Neznamy argument!
+0.07:ok: reakce na stderr na chybny argument -m -1
+#   Uhol nie je z intervalu 0 < A <= 1.4

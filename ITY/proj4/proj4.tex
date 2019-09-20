@@ -1,0 +1,78 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[text={17cm,24cm},left=2cm,top=3cm]{geometry}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage[hyphens]{url}
+\def\UrlBreaks{\do\/\do-}
+
+
+\begin{document}
+\begin{titlepage}
+		\begin{center}
+			\Huge
+			\textsc{Vysoké učení technické v~Brně} \\
+			\huge
+			\textsc{Fakulta informačních technologií} \\
+			\vspace{\stretch{0.382}}
+			\LARGE
+			Typografie a~publikování\,--\,4.~projekt \\
+			\Huge
+			Bibliografické citácie
+			\vspace{\stretch{0.618}}
+		\end{center}
+
+		{\Large
+			\today
+			\hfill
+			Alex Sporni
+		}
+\end{titlepage}
+
+\section{Úvod}
+\emph{\uv{Jednou z~oblasti lidské činnosti, kterou výrazně poznamenalo rozšírení osobních počítačů, je zpracování textu.}} 
+\cite{Rybicka2003}
+\section{Systém \LaTeX}
+\LaTeX\ je komplexná sada príkazov, ktoré sú využívané prepacovaným sádzacím programom \TeX. Tento program slúži na prípravu dokumentov, vedeckých článkov, hlásení a~komplexných kníh. \TeX ako aj \LaTeX\ je open source software čo znamená, že je úplne zadarmo. \cite{Kopka2004}
+\section{Prečo si zvoliť {\LaTeX} a~prečo je praktické ho ovládať}
+Oproti editorom ako sú Word a~Open Office {\LaTeX} nijako neobmedzuje. Je jednoduchý, rýchly a~ponúka možnosť presnej citácie podľa normy ISO 690 \cite{Martinek2013}. Medzi ďalšie výhody patria:
+\begin{itemize}
+\item jednoduché vysádzanie matematických znakov
+\item možnosť si nadefinovať ľubovolné odsadenie alebo vzorec
+\item text je prehľadný a jasne štruktúrovaný
+\item \LaTeX je oproti iným konkurenčým produktom úplne zdarma \cite{Found2013}
+\end{itemize}
+\section{Štruktúra dokumentu}
+Medzi najčastejšie chyby bežných editorov patria \textit{vdova} a~\textit{sirota}. 
+Vdovou nazývame prvý riadok nového odstavca, ktorý zostal na predošlej strane a sirotu nazývame posledný riadok odstavca, ktorý pretiekol na ďalšiu stranu, kde sa stal prvým riadkom. 
+Obe spomenuté chyby sa v~kvalitných prácach nesmú vyskytnúť. Okrem toho, že sú na oko nepríjemné, tak hrubo porušujú  pravidlá správnej sadzby a pri čítaní tak človek stratí kontinuitu a hlavnú tému. Jednoduchý príkaz na členenie paragrafov je \verb|\par|. \cite{root2001}
+\section{Matematické vzorce v~{\LaTeX}e}
+Sadzba matematiky je samostatnou doménou {\LaTeX}u. Pre sadzbu matematiky existujú rôzne prostredia. Jedným z~týchto prostredí je prostredie \texttt{math}, ktoré umožňuje vysádzať vzorce vo~vnútri textu. Vzorce sa uzavierajú do príkazov \verb|\begin{math}| a~\verb|\end{math}|.
+\newline Jednoduchá ukážka: \begin{math}s=\frac{1}{2}at^2\end{math}, zdrojový kód: \verb|\begin{math}s=\frac{1}{2}at^2\end{math}|
+{\LaTeX} si jednoducho poradí aj s~oveľa zložitejšími vzorcami, ktoré by vo~worde bolo veľmi obtiažne vysádzať, v~niektorých prápadoch priam nemožné. \cite{Bojko2011}
+$$
+f=
+\sin^2\alpha\frac{
+\int\limits_1^2
+\sqrt{1+\left(\frac{(x^6-1)^2}{2x^3}\right)^3}
+dx}
+{\frac{3x}{x^2}}+
+(\sin\beta - \cos\alpha)
+$$
+\section{Tvorba Tabuliek}
+Tabuľky sú jedným zo spôsobov ako prehľadne zobraziť dáta. \LaTeX nám nám tú možnosť ponúka prostredím \texttt{tabular}. Prostredie \texttt{tabular} má povinný a nepovinný parameter. Nepovinný parameter slúži na určenie vertikálneho zarovnania. Povinný parameter určuje horizontálne zarovnanie v~jednotlivých stĺpcoch. \cite{Cerny2011}
+\section{Slides}
+Trieda \texttt{slides} ponúka základnú sadu príkazov pre tvorbu a~prácu so snímkami prezentácie.
+Samotná trieda sa volá príkazom \verb|\documentclass{slides}|. 
+Jednotivé snímky prezentácie sa umiestnia medzi párovu sadu príkazov \verb|\begin{document}| a~\verb|\end{document}|. \cite{Olsak2014}
+\section{HTML}
+HTML je masívne využívané ako rozhranie ktoré poskytuje služby používateľom. Weboví vývojári vytvárajú a~editujú stránky s~vysokým tempom a~snažia sa podporovať najnovšie normy a~štandardy HTML.\cite{Mendes2018}
+Existujú isté snahy konzorcia World Wide Web vyvýjať HTML 5 ako jediný štandard, ktorý má za úlohu poskytovať vylepšené funkcie, bez proprietárnych technológii. \cite{Nichols2010}
+
+
+\newpage
+\bibliographystyle{czechiso}
+\renewcommand{\refname}{Literatúra}
+\bibliography{proj4}
+
+\end{document}

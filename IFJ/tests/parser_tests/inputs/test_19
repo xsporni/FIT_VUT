@@ -1,0 +1,3 @@
+a = 0.888
+b = 2.999
+c = substr("Hello", a, b)

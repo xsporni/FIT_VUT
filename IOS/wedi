@@ -1,0 +1,148 @@
+#!/bin/sh
+
+# IOS - Projekt 1
+# Autor: Alex Sporni (xsporn01@stud.fit.vutbr.cz)
+# Zadanie: http://www.fit.vutbr.cz/study/courses/IOS/public/Lab/projekty/projekt1/projekt1.pdf
+
+#export WEDI_RC=/home/xsporn01/Documents/proj1/wedirc
+#export EDITOR="nano"
+#export VISUAL="vim"
+
+export POSIXLY_CORRECT=yes
+
+
+	if [ -z "$WEDI_RC" ]; then
+		echo "Chyba! Premenna WEDI_RC nie je nastavena">&2
+		exit 1	
+	elif [ ! -d "$WEDI_RC" ]; then
+	mkdir -p `dirname "$WEDI_RC"`
+	touch "$WEDI_RC"	
+	fi
+
+	if ! [ -f "$WEDI_RC" ]; then
+		echo "Chyba! subor WEDI_RC neexistuje, bude vytvoreny">&2
+		touch "$WEDI_RC"
+	fi
+
+
+
+edit()
+{		
+	if [ -z "$EDITOR" ]; then
+		if [ -z "$VISUAL" ]; then
+			echo "Chyba, EDITOR a VISUAL nie su nastavene">&2
+			argument=vi
+		else
+			argument=$VISUAL
+		fi
+	else 
+		argument=$EDITOR
+	fi
+	cesta=$(readlink -f "$1")
+	$argument "$1"
+		
+		printf "$cesta;$(date '+%Y-%m-%d#%H:%M:%S')\\n" >> "$WEDI_RC"
+}
+	#Pokial bol skriptu zadany subor, bude editovany
+
+	if [ "$#" -gt "3" ];then
+		echo "Chyba, nepovoleny pocet vstupov">&2
+		exit 1
+	fi
+
+	if [ "$#" -eq 1 ] && [ -f "$1" ]; then 
+		edit "$1"
+	elif [ "$#" -eq 1 ] && [ -d "$1" ] ; then
+		pom=$(cat "$WEDI_RC" | grep "$2/[^/]*$" | tail -1 | cut -d";" -f1 )
+		edit "$pom"
+	
+	fi
+	#Pokial bol zadany argument -m
+	
+	if [ "$#" -eq 1 ] && [ "-m" = "$1" ];then
+		path=`pwd`
+		temp1=$(cat "$WEDI_RC" | grep "$path/[^/]*$" | cut -d ";" -f1 | sort | uniq -c | sort -r | awk '{print $2}' | head -1)
+		if [ -z "$temp1" ];then
+			echo "Chyba, nebol editovany ziadny subor!">&2
+			exit 1
+		fi
+		edit "$temp1"
+	fi
+
+	if [ "$#" -eq 2 ] && [ "-m" = "$1" ] && [ -d "$2" ];then
+		temp1=$(cat "$WEDI_RC" | grep "$2/[^/]*$" | cut -d ";" -f1 | sort | uniq -c | sort -r | awk '{print $2}' | head -1)
+		if [ -z "$temp1" ];then
+			echo "Chyba, nebol editovany ziadny subor!">&2
+			exit 1
+		fi
+		edit "$temp1"
+	fi
+
+	
+	#Ak sa v danom adresary nenachadza ziadny subor
+	if [ "$#" = "0" ];then
+		temp2=$(grep "$(realpath .)/[^/]*$" "$WEDI_RC" | cut -d ";" -f1 | tail -1)
+		edit "$temp2"
+	fi
+	
+	#Skript zobrazi zoznam vsetkych suborov, ktore boli v danom adresary editovane
+	if [ "$#" -eq 1 ] && [ "-l" = "$1" ];then
+		path1=`pwd`
+		temp3=$(cat "$WEDI_RC" | grep "$path1/[^/]*$" | cut -d ";" -f1 | sort | uniq | rev | cut -d "/" -f1 | rev)
+		echo "$temp3"
+
+	fi
+
+	if [ "$#" -eq 2 ] && [ "-l" = "$1" ] && [ -d "$2" ];then
+		temp3=$(cat "$WEDI_RC" | grep "$2/[^/]*$" | cut -d ";" -f1 | sort | uniq | rev | cut -d "/" -f1 | rev)
+		echo "$temp3"
+	fi
+
+
+	if [ "$#" -eq 3 ] && [ "-b" = "$1" ] && [ -d "$3" ];then
+
+		path2="$3"
+		premenna1=`grep "$3/[^/]*$" "$WEDI_RC" | tr -d "-"`
+		temp4=$(cat "$WEDI_RC" | grep "$path2/[^/]*$" | rev | cut -d "/" -f1 | rev | cut -d ";" -f2 | cut -d "#" -f1 | tr -d "-" | uniq | sort )
+		input_datum=$(date -d "$2" +"%Y%m%d")
+		
+
+		for date in $temp4
+	do
+		case $1 in
+			"-b")
+                if [ "$date" -lt "$input_datum" ]; then
+					echo "$premenna1" | grep "$date" | cut -d";" -f 1 | rev | cut -d"/" -f 1 | rev
+				fi
+                ;;            
+			
+		esac
+	done | sort | uniq
+	
+	fi
+
+	if [ "$#" -eq 3 ] && [ "-a" = "$1" ] && [ -d "$3" ];then
+		path2="$3"
+		premenna2=`grep "$3/[^/]*$" "$WEDI_RC" | tr -d "-"`
+		temp4=$(cat "$WEDI_RC" | grep "$path2/[^/]*$" | rev | cut -d "/" -f1 | rev | cut -d ";" -f2 | cut -d "#" -f1 | tr -d "-" | uniq | sort )
+		input_datum=$(date -d "$2" +"%Y%m%d")
+		
+
+		for date in $temp4
+	do
+		case $1 in
+		       
+			"-a")
+                if [ "$date" -ge "$input_datum" ]; then
+					echo "$premenna2" | grep "$date" | cut -d";" -f 1 | rev | cut -d"/" -f 1 | rev
+				fi
+                ;;
+		esac
+	done | sort | uniq
+	
+	fi
+
+
+
+
+

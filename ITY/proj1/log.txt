@@ -1,0 +1,7 @@
+﻿Komentář učitele k hodnocení:
+-1:prevlnkovane --> 51:pouze pro~klíčová slova,
+-0:delenie odstavcov --> 27:ačínat číslicí.\par
+-0:zvyraznenie bez emph
+-0.5:nasilne odriadkovanie --> 11:Typografie a publikování \\ [0.3cm]
+-1:rucne delenie slov --> vý-chodovou řádk
+-0.2:vysadza sa v \url --> http://petr.olsak.net/ftp/olsak/vlna/

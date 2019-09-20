@@ -1,0 +1,18 @@
+﻿Komentář učitele k hodnocení:
+PŘÍKLAD  MAX          VAŠE BODY
+1              0.5           0.5           
+2              1              1              
+3              0.5           0.5           Důležité pro stabilitu je, že se ani jeden z >>pólů<< nenachází mimo jednotkovou kružnici
+4              0.5           0.5           Aby se jednalo o PSD v decibelech, musel byste hodnoty modulu zobrazit přes 10*log(modul). Tak, jak to máte, je to taky OK, jen ten popisek y-osy nesedí.
+5              1              1              
+6              1              1              
+7              1              1              
+8              1              1              Stejná poznámka jako Př. 4
+9              1              0.5           Tvar ok, ale hodnoty byste měl normalizovat tak, aby odpovídaly funkci hustoty rozložení pravděpodobnosti - tzn. podělit počtem vzorků, ze kterých to počítáte (to děláte) a velikostí jednoho binu. Velikost binu můžete zjistit např. z druhé návratové hodnoty `hist`, která Vám dá středy jednotlivých binů. Tyto středy byste měl taky použít pro popis x-ové osy - tak jak to máte teď to vypadá, že se v signále vyskytují hodnoty od 0 po 100, což není pravda... Při počítání integrálu byste pak měl hodnoty naopak násobit velikostí jednoho binu a pak teprve sčítat (počítáte obsah pod funkcí, každý sloupec histogramu ma šířku odpovídající velikosti binu a výšku odpovídající hodnotě p(x))
+10             0.5           0.5           
+11             0.5           0.5           
+12             1.5           1.5           
+13             1              1              Tady správně při počítání integrálu násobíte velikostí binu `surf`, podobně by měl být i Př. 9
+14             1              1              
+               
+TOTAL                    11.5      pěkný projekt!
