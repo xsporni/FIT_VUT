@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\opengl\opengl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\student.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\linearAlgebra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\camera.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\mouseCamera.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\program.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\examples\quadExample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\opengl\opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\mouseCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\examples\quadExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D203F93B-74C0-3240-A889-E1E116C9B3BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8DEE7E34-D5DA-3563-BDBD-AC0EF46D7001}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

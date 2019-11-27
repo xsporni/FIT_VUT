@@ -1,0 +1,14 @@
+﻿  student.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\cv3\izg_lab_03\src\student.cpp(26,9): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (1252)
+  main.cpp
+C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\cv3\izg_lab_03\src\student.cpp(40,9): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (1252)
+C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\cv3\izg_lab_03\src\main.cpp(375,13): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (1252)
+  io.cpp
+C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\cv3\izg_lab_03\src\main.cpp(487,9): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (1252)
+C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\cv3\izg_lab_03\src\io.cpp(32,9): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (1252)
+C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\cv3\izg_lab_03\src\io.cpp(42,9): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (1252)
+  color.cpp
+  Generating Code...
+C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\cv3\izg_lab_03\src\io.cpp(77,9): warning C4566: character represented by universal-character-name '\u010D' cannot be represented in the current code page (1252)
+  izg.vcxproj -> C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\cv3\izg_lab_03\Debug\izg.exe

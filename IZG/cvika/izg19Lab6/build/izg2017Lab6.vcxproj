@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43843915-E67E-3D68-8AA0-7F6B2C1B352D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>izg2017Lab6</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">izg2017Lab6.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">izg2017Lab6</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">izg2017Lab6.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">izg2017Lab6</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">izg2017Lab6.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">izg2017Lab6</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">izg2017Lab6.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">izg2017Lab6</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\sdl2\win64\lib\SDL2d.lib;..\sdl2\win64\lib\SDL2maind.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/Debug/izg2017Lab6.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/Debug/izg2017Lab6.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\sdl2\win64\lib\SDL2.lib;..\sdl2\win64\lib\SDL2main.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/Release/izg2017Lab6.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/Release/izg2017Lab6.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\sdl2\win64\lib\SDL2d.lib;..\sdl2\win64\lib\SDL2maind.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/MinSizeRel/izg2017Lab6.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/MinSizeRel/izg2017Lab6.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\sdl2\win64\lib\SDL2d.lib;..\sdl2\win64\lib\SDL2maind.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;dinput8.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/RelWithDebInfo/izg2017Lab6.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/RelWithDebInfo/izg2017Lab6.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\bin\cmake.exe "-HC:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6" "-BC:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build" --check-stamp-file "C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/CMakeLists.txt;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2ConfigVersion.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Config.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets-debug.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets-release.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\bin\cmake.exe "-HC:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6" "-BC:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build" --check-stamp-file "C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/CMakeLists.txt;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2ConfigVersion.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Config.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets-debug.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets-release.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\bin\cmake.exe "-HC:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6" "-BC:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build" --check-stamp-file "C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/CMakeLists.txt;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2ConfigVersion.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Config.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets-debug.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets-release.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\bin\cmake.exe "-HC:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6" "-BC:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build" --check-stamp-file "C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/alexs/Desktop/4. semester/IZG/Cvičenia/izg19Lab6/CMakeLists.txt;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeSystem.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeCCompiler.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeCXXCompiler.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\3.11.1\CMakeRCCompiler.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;C:\Users\alexs\Desktop\cmake-3.11.1-win64-x64\cmake-3.11.1-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2ConfigVersion.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Config.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets-debug.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\sdl2\win64\cmake\SDL2Targets-release.cmake;C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\opengl\opengl.c" />
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\opengl\opengl.h" />
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\student.c" />
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\linearAlgebra.c" />
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\main.c" />
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\camera.c" />
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\mouseCamera.c" />
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\program.c" />
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\student.h" />
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\camera.h" />
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\model.h" />
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\mouseCamera.h" />
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\student\program.h" />
+    <ClCompile Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\examples\quadExample.c" />
+    <ClInclude Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\examples\quadExample.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\alexs\Desktop\4. semester\IZG\Cvičenia\izg19Lab6\build\ZERO_CHECK.vcxproj">
+      <Project>{548A9BC4-A2EE-3461-9511-091856E96582}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

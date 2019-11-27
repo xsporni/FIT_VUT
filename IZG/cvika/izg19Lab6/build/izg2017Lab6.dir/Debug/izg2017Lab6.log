@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/alexs/Desktop/4. semester/IZG/Cvicenia/izg19Lab6/CMakeLists.txt
+  CMake is re-running because C:/Users/alexs/Desktop/4. semester/IZG/Cvicenia/izg19Lab6/build/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "C:/Users/alexs/Desktop/4. semester/IZG/Cvicenia/izg19Lab6" does not exist.
+  Specify --help for usage, or press the help button on the CMake GUI.
