@@ -1,0 +1,3 @@
+# 2 Uhlíková stopa v energetice a teplárenství
+## Zadanie:
+Druhy energetických zdrojů, jejich provozování a vliv na produkci emisí. Možná protiopatření v podobě investic do modernizace elektráren. Výroba energie z obnovitelných zdrojů (fotovoltaika, voda, vítr, biomasa apod). Náklady spojené s provozem obnovitelných zdrojů (zastavěnost území, přeprava materiálu, regulační zdroje). Provozování bezemisního teplárenství v ČR (jak lze v ČR vytápět bezemisně sídliště). Provozní mix energetických zdrojů. Proveditelnost energetické koncepce EU. Moderní metody uchování energie (baterie, vodík).
