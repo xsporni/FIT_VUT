@@ -1,126 +1,126 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.24)  8 DEC 2019 21:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.6)  25 FEB 2021 20:38
 entering extended mode
 **./proj1.tex
 (proj1.tex
-LaTeX2e <2018-04-01> patch level 5
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2020-02-02>
+L3 programming layer <2020-02-03>
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-) ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
 y"
-Package: inputenc 2018/04/06 v1.3b Input encoding file
+Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-) ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+) ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty
 "
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
- ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
-y"
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+)
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
 
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\cslatex\base\il2enc.def"
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/cslatex/base\il2enc.def"
 File: il2enc.def 1997/08/20 CSLaTeX
 Now handling font encoding IL2 ...
 ... no UTF-8 mapping file for font encoding IL2
 )
-LaTeX Font Info:    Try loading font information for IL2+cmr on input line 105.
-
- ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\cslatex\base\il2cmr.fd"
+LaTeX Font Info:    Trying to load font information for IL2+cmr on input line 1
+12.
+ ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/cslatex/base\il2cmr.fd"
 File: il2cmr.fd 1997/02/06 CSLaTeX font definitions
 ))
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
 sty"
-Package: geometry 2018/04/16 v5.8 Page Geometry
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
 y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
-ty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
-sty"
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
-sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
+"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty
+"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
 \Gm@dimlist=\toks17
 
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
 cfg"))
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/09/26 3.24 The Babel package
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2020/02/03 3.39 The Babel package
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
 "
-File: switch.def 2018/09/26 3.24 Babel switching mechanism
+File: switch.def 2020/02/03 3.39 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-czech\czech.
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-czech\czech.
 ldf"
 Language: czech 2008/07/06 v3.1a Czech support from the babel system
 
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/09/26 3.24 Babel common definitions
-\babel@savecnt=\count91
-\U@D=\dimen111
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/02/03 3.39 Babel common definitions
+\babel@savecnt=\count178
+\U@D=\dimen143
 
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
 ef")
-\bbl@dirlevel=\count92
+\bbl@readstream=\read2
+\bbl@dirlevel=\count179
 )
 Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count93
+\cs@wordlen=\count180
 Package babel Info: Making - an active character on input line 226.
 ))
-No file proj1.aux.
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
+d-pdfmode.def"
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count181
+\l__pdf_internal_box=\box45
+) (proj1.aux)
 \openout1 = `proj1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -128,6 +128,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -168,14 +169,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 19.
-LaTeX Font Info:    Try loading font information for IL2+cmtt on input line 38.
-
-("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\cslatex\base\il2cmtt.fd"
+LaTeX Font Info:    Trying to load font information for IL2+cmtt on input line 
+38.
+("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/cslatex/base\il2cmtt.fd"
 File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for IL2+cmss on input line 39.
-
- ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\cslatex\base\il2cmss.fd
+LaTeX Font Info:    Trying to load font information for IL2+cmss on input line 
+39.
+ ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex/cslatex/base\il2cmss.fd
 "
 File: il2cmss.fd 1997/02/13 CsLaTeX font definitions
 )
@@ -183,62 +184,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 53.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
- ("C:\Users\alexs\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
-
-
-LaTeX Warning: Reference `2' on page 1 undefined on input line 105.
-
-
-LaTeX Warning: Reference `3' on page 1 undefined on input line 105.
-
-[1{C:/Users/alexs/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/alexs/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-(proj1.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(proj1.aux) ) 
 Here is how much of TeX's memory you used:
- 1845 strings out of 492970
- 25590 string characters out of 3126593
- 104025 words of memory out of 3000000
- 5714 multiletter control sequences out of 15000+200000
- 16027 words of font info for 40 fonts, out of 3000000 for 9000
+ 2088 strings out of 481531
+ 30655 string characters out of 2912584
+ 283124 words of memory out of 3000000
+ 17340 multiletter control sequences out of 15000+200000
+ 545060 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,8n,31p,210b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\csfonts\dpi6
-00\csr8.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\csf
-onts\dpi600\csr6.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\p
-ublic\csfonts\dpi600\csr7.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\public\csfonts\dpi600\csbx10.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\public\csfonts\dpi600\cscsc10.pk> <C:\Users\alexs\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\public\csfonts\dpi1037\csbx12.pk> <C:\Users\alex
-s\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\csfonts\dpi600\csr5.pk> <C:\U
-sers\alexs\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\csfonts\dpi600\csti1
-0.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\csfonts\d
-pi600\csss10.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\publi
-c\csfonts\dpi600\csbxti10.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\public\csfonts\dpi600\cstt10.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\public\csfonts\dpi600\csr10.pk> <C:\Users\alexs\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\public\csfonts\dpi720\csbx12.pk> <C:\Users\alexs\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\csfonts\dpi600\csr12.pk> <C:\Use
-rs\alexs\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\csfonts\dpi600\csr17.p
-k><C:/Users/alexs/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Users/alexs/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb>
-Output written on proj1.pdf (1 page, 125704 bytes).
-PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 30i,8n,33p,235b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/c
+sfonts/dpi600\csr8.pk> <C:\Users\alexs\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/public/csfonts/dpi600\csr6.pk>
+!pdfTeX error: pdflatex (file tcrm1000): Font tcrm1000 at 600 not found
+ ==> Fatal error occurred, no output PDF file produced!
